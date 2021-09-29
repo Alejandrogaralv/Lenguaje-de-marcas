@@ -1,0 +1,15 @@
+<pelicula> 
+	<titulo>Star Wars: Episodio 1 - La amenaza fantasma</titulo>
+	<Fecha>1999</Fecha>
+	<Genero>Ciencia ficción/Acción</Genero>
+	<Duracion>2h 16m</Duracion>
+	<Director>George Lucas</Director>
+	<guion>George Lucas</guion>
+	<musica>John Williams</musica>
+	<actores>
+		<actor>Liam Neeson</actor>
+		<actor>Ewan McGregor</actor>
+		<actriz>Natalie Portman</actriz>
+		<actor>Jake Lloyd</actor>
+	</actores>
+</pelicula>
