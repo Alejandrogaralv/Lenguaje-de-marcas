@@ -1,0 +1,12 @@
+<tweet>
+	<nombre>Alejandro García</nombre>
+	<nombre_de_usuario>@alejandrogaralv</nombre_de_usuario>
+	<contenido>hoy hace sol</contenido>
+	<retweets>14</retweets>
+	<me_gusta>41</me_gusta>
+	<comentarios>
+		<comentario>hace día de playa</comentario>
+		<comentario>a ver si no se nubla</comentario>
+		<comentario>que suerte, donde vivo yo llueve</comentario>
+	</comentarios>
+</tweet>
