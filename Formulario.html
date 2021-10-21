@@ -2,21 +2,38 @@
 <html>
     <head>
         <title>Contáctanos</title>
+        <meta charset="UTF-8">
     </head>
     <body>
         <h1 align="center">Envíanos un mensaje</h1>
-        <h3 align="center">¿Tienes alguna duda? Te respondemos en menos de 24 horas.</h3>
+        <h3 align="center">¿Tienes alguna duda? Te respondemos en menos de 24 horas.</h3><br>
         <form>
-            <label for="name">Nombre:</label><br>
-
-
-
+            <label for="fname">Nombre:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Nombre"><br>
+            <label for="email">Correo electrónico:</label><br>
+            <input type="text" id="email" name="direccionemail" placeholder="Correo electrónico"><br>
+            <label for="tel">Teléfono:</label><br>
+            <input type="text" id="tel" name="telefono" placeholder="Teléfono"><br>
+            <label for="interesado">Interesado en:</label><br>
+            <select id="interesado" name="interesado">
+                <option value="Formación profesional">Formación profesional</option>
+                <option value="Desarrollo de aplicaciones web">Desarrollo de aplicaciones web</option>
+                <option value="Desarrollo de aplicaciones multiplataforma">Desarrollo de aplicaciones multiplataforma</option>
+                <option value="Educación infantil">Educación infantil</option>
+                <option value="TAFAD">TAFAD</option>
+                <option value="Inglés">Inglés</option>
+                <option value="Cursos para empleados">Cursos para empleados</option>
+                <option value="Cursos para desempleados">Cursos para desempleados</option>
+                <option value="Seguridad privada">Seguridad privada</option>
+                <option value="Alquiler de aulas">Alquiler de aulas</option>
+                <option value="Otros">Otros</option>
+            </select><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea><br>
+            <input type="checkbox" id="LOPD" name="LOPD" value="LOPD">
+            <label for="LOPD"> Acepto la LOPD</label><br>
+            <br>
+            <button type="submit" name="enviar" >Enviar</button>
         </form>
-
-
     </body>
-
-
-
-
 </html>
