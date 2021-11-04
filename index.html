@@ -4,6 +4,11 @@
         <meta charset="UTF-8">
         <title>CSS</title>
         <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                box-sizing: border-box;
+            }
             h1{
                 color:rgb(80, 25, 231); 
                 background-color:rgba(0, 128, 0, 0.795);
@@ -23,16 +28,33 @@
             .subrayar{
                 text-decoration: underline;
             }
+            .tarjeta{
+                border:1px solid gray;
+                padding: 12px;
+                box-shadow: 0px 0px 6px black;
+                margin: 12px;
+            }
         </style>
     </head>
             <body>
                 <h1 class="mayusculas subrayar">Mi primera página con CSS</h1>
         <p id="primer_parrafo" class="texto_rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad? Laborum, libero alias sint autem labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
-        <p class="texto_rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad? Laborum, libero alias sint autem
-            labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
-        <p class="texto_rojo mayusculas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad? Laborum, libero alias sint autem
-            labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
+        <div class="tarjeta">
+            <p class="texto_rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad? Laborum, libero alias sint autem
+                labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
+            <p class="texto_rojo mayusculas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad? Laborum, libero alias sint autem
+                labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
+        </div>
+        <div class="tarjeta">
+            <p class="texto_rojo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad? Laborum,
+                libero alias sint autem
+                labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
+            <p class="texto_rojo mayusculas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime magnam dolores ad?
+                Laborum, libero alias sint autem
+                labore corrupti facilis accusantium nemo officia fugit nam blanditiis, error quam dignissimos similique?</p>
+        </div>
     </body>
 </html>
 
-//p. o p# para crear classes o id directamente
+
+
