@@ -7,11 +7,13 @@
     <body>
         <h1 align="center">Envíanos un mensaje</h1>
         <h3 align="center">¿Tienes alguna duda? Te respondemos en menos de 24 horas.</h3><br>
-        <form>
+        <form action="">
             <label for="fname">Nombre:</label><br>
             <input type="text" id="fname" name="fname" placeholder="Nombre"><br>
             <label for="email">Correo electrónico:</label><br>
             <input type="text" id="email" name="direccionemail" placeholder="Correo electrónico"><br>
+            <label for="pwd">Contraseña:</label><br>
+            <input type="password" id="pwd" name="pwd"><br>
             <label for="tel">Teléfono:</label><br>
             <input type="text" id="tel" name="telefono" placeholder="Teléfono"><br>
             <label for="interesado">Interesado en:</label><br>
@@ -31,10 +33,22 @@
             </select><br>
             <label for="mensaje">Mensaje:</label><br>
             <textarea id="mensaje" name="mensaje" placeholder="Mensaje"></textarea><br>
+            <label for="mfile">Puedes adjuntar un archivo aquí:</label><br>
+            <input type="file" id="mfile" name="mflie"><br>
+            <label for="sexo">Seleccione su sexo:</label><br>
+            <input type="radio" id="hombre" name="sexo" value="hombre">
+            <label for="hombre">Hombre</label>
+            <input type="radio" id="Mujer" name="sexo" value="mujer">
+            <label for="mujer">Mujer</label>
+            <input type="radio" id="no binario" name="sexo" value="no binario">
+            <label for="no binario">No binario</label><br>
             <input type="checkbox" id="LOPD" name="LOPD" value="LOPD">
             <label for="LOPD"> Acepto la LOPD</label><br>
+            <input type="checkbox" id="edad" name="edad" value="edad">
+            <label for="edad">Soy mayor de edad</label>
             <br>
-            <button type="submit" name="enviar" >Enviar</button>
+            <input type="submit" value="Enviar">
+            <input type="reset">
         </form>
     </body>
 </html>
