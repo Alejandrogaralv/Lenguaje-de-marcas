@@ -8,7 +8,7 @@
                 padding: 0px;
                 box-sizing: border-box;
             }
-            .contenedorb{
+            #contenedor{
                 background-color: #FFFFFF;
                 box-sizing: border-box;
                 width: 400px;
@@ -34,40 +34,59 @@
                 border: 1px solid gray;
                 float: left;
             }
+            #body div:first-of-type{
+                background-color: lightgray;
+            }
+            #body div:last-of-type{
+                background-color: lightgray;
+            }
             img{
                 max-width: 50%;
                 display:block;
                 margin:auto;
             }
-            h2{
+            div:nth-of-type(even) > h2{
                 text-align: center;
                 font-family: Arial, Helvetica, sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                
+            }
+            div:nth-of-type(odd) > h2{
+                text-align: center;
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 24px;
+                font-weight: 700;
+            }
+            p{
+                font-weight: normal;
+                font-size: 16px;
             }
             
         </style>
 
     </head>
-    <body>
-        <div class="contenedorg">
+    <body id="body">
+        <div id="contenedor">
             <img src="futbol.jpg">
             <h2>Fútbol</h2>
             <p>El fútbol (del inglés británico football, traducido como balompié)​ es un deporte de equipo jugado entre dos
             conjuntos de once jugadores cada uno y algunos árbitros que se ocupan de que las normas se cumplan correctamente.</p>
         </div>
-        <div class="contenedorb">
+        <div id="contenedor">
             <img src="baloncesto.jpg">
             <h2>Baloncesto</h2>
             <p>El baloncesto (del inglés basketball; de basket, 'canasta', y ball, 'pelota'), también conocido como básquetbol,
             basquetbol o simplemente básquet. Es un deporte de equipo, jugado entre dos conjuntos de cinco jugadores cada uno
             durante cuatro períodos o cuartos de diez minutos cada uno ―doce minutos cada cuarto en la NBA―.</p>
         </div>
-        <div class="contenedorb">
+        <div id="contenedor">
             <img src="rugby.jpeg">
             <h2>Rugby</h2>
             <p>El rugby es un deporte de evasión y contacto en equipo nacido en Inglaterra. Fue en ese país donde tomó su nombre a
             partir de las reglas del fútbol elaboradas en el colegio de la ciudad de Rugby (Rugby School) en el siglo XIX.</p>
         </div>
-        <div class="contenedorg">
+        <div id="contenedor">
             <img src="tenis.jpg">
             <h2>Tenis</h2>
             <p>El tenis, también llamado tenis de campo, es un deporte de raqueta practicado sobre una pista rectangular (compuesta
