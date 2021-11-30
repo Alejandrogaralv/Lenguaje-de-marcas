@@ -9,33 +9,83 @@
                 padding: 0px;
                 box-sizing: border-box;
             }
-            #contenedor{
-                background-color: lightskyblue;
-                height: 50px;
-                width: 100%;
-                
-            }
+            
             div{
                 position:-webkit-sticky;
                 position:sticky;
                 top:0px;
             }
-            img{
-                position:absolute;
-                top:5px;
-                left:5px;
+
+            #contenedor .enLinea{
+                display: inline-block;
+            }
+            #contenedor img{
                 width:40px;
-                height: 40px;
+                top:0%;
+                margin:auto;
+                display: inline-block;
+                vertical-align: middle;
             }
             
+            #contenedor a{
+                color: white;
+                text-decoration: none;
+                background-color: blue;
+                padding: 24px;
+            }
+            #contenedor a:hover{
+                background-color: red;
+            }
+            
+            #contenedor ul{
+                list-style-type: none;
+                margin: 0;
+                vertical-align: middle;
+                display: inline-block;
+                height: auto;
+                
 
+
+            }
+
+            
+
+            
+             .dropdown-content:hover{
+                display:block;
+                position: absolute;
+                left:91px;
+                top: 52px;
+                padding: 12px 16px;
+                background-color: lightgray;
+                box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            }
+
+            #contenedor li{
+                float: left;
+            }
+            #contenedor{
+                background-color: blue;
+                width: 100%;
+            }
+            
         </style>
 
     </head>
     <body>
         <div id="contenedor">
-            <img src="menu.png">
-
+            <a href="" id="logo" class="enLinea">
+                <img class="enLinea" src="menu.png" id="menu-img" alt="Menu">
+            </a>
+            <ul>
+                <li>
+                    <a href="#home" class="dropdown"><span>Home</span></a>
+                    <div class="dropdown-content">Hola mundo</div>
+                </li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#about">About</a></li>
+                
+            </ul>
         </div>
         <h2>Hello from the web</h2><br>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi ad, iure vitae distinctio dolore unde vero dolorem. Quasi, deleniti. Deserunt, dolorum suscipit. Corrupti cumque, est laudantium a beatae nisi aliquam!</p><br>
