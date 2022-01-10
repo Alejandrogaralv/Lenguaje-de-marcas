@@ -102,3 +102,62 @@ a {
   padding-top: 65px;
   font-size: 12px;
 }
+#founders {
+  position: relative;
+  padding-top: 80px;
+  padding-left: 55px;
+  padding-right: 55px;
+  padding-bottom: 70px;
+  border-radius: 12px;
+  display: block;
+}
+#founders h2:first-child {
+  padding-bottom: 20px;
+  padding-left: 32px;
+}
+#contenedorFounders {
+  width: 1520px;
+  height: 600px;
+  border-radius: 12px;
+}
+.contenedoresFoudners {
+  width: 475px;
+  height: 600px;
+  margin: 14px;
+  border-radius: 12px;
+  display: inline-block;
+}
+.contenedoresFoudners h2 {
+  padding-top: 490px;
+  padding-left: 2px;
+  font-size: 18px;
+  color: black;
+}
+.contenedoresFoudners h3 {
+  color: black;
+  font-size: 16px;
+  font-weight: 200;
+  padding-left: 2px;
+}
+.contenedoresFoudners h2:hover {
+  text-decoration: underline;
+}
+.fotoFounders {
+  position: absolute;
+
+  overflow: hidden;
+
+  border-radius: 12px;
+}
+.fotoFounders img {
+  width: 475px;
+  height: 100%;
+  display: block;
+  transition: transform 0.2s;
+  border-radius: 12px;
+}
+.fotoFounders img:hover {
+  transform: scale(1.1);
+  transform: translateZ(1);
+  border-radius: 12px;
+}
