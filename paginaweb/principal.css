@@ -161,3 +161,140 @@ a {
   transform: translateZ(1);
   border-radius: 12px;
 }
+#history {
+  margin-top: 80px;
+  display: block;
+  padding-left: 80px;
+  height: 600px;
+  margin-bottom: 150px;
+}
+#history h2 {
+  padding-bottom: 30px;
+}
+.contenedorHistory {
+  display: inline-block;
+  height: 515px;
+  width: 368px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  margin: 8px;
+  float: left;
+}
+.contenedorHistory img {
+  width: 100%;
+  border-top-right-radius: 12px;
+  border-top-left-radius: 12px;
+}
+
+.textoHistory {
+  padding: 24px;
+}
+.textoHistory h3 {
+  font-size: 18px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.textoHistory p {
+  font-size: 14px;
+  font-weight: 300;
+}
+#footer {
+  padding-top: 50px;
+  border-top: 1px solid #ddd;
+  background-color: #f7f7f7;
+  height: auto;
+  padding-bottom: 15px;
+}
+.footerContenedor {
+  width: 100%;
+  height: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 80px;
+  padding-left: 80px;
+}
+.contenedorListas {
+  height: 350px;
+}
+.listasFooter {
+  display: inline-block;
+  float: left;
+  width: 368px;
+  height: 355px;
+}
+.listasFooter h4 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.listasFooter ul {
+  list-style: none;
+  color: black;
+}
+.listasFooter li {
+  color: black;
+  margin-top: 16px;
+}
+.listasFooter a {
+  color: #222;
+  font-size: 14px;
+  font-weight: 300;
+}
+.listasFooter a:hover {
+  text-decoration: underline;
+}
+.disclaimer {
+  display: block;
+  margin-top: 48px;
+  margin-bottom: 48px;
+  width: 752px;
+  margin-bottom: 48px;
+}
+.disclaimer h4 {
+  font-size: 12px;
+  font-weight: 600px;
+}
+.disclaimer p {
+  margin-top: 16px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.contenedorCopyrightetc {
+  padding-left: 80px;
+  padding-right: 80px;
+  height: 50px;
+}
+.copyrightetc {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  border-top: 1px solid #ddd;
+}
+.copyenlaces {
+  display: inline-block;
+  float: left;
+}
+.copyenlaces p {
+  display: inline-block;
+  float: left;
+  padding-right: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  font-weight: 300;
+}
+.copyenlaces a {
+  display: inline-block;
+  float: left;
+  color: black;
+  font-size: 14px;
+  font-weight: 300;
+}
+.copyenlaces a:hover {
+  text-decoration: underline;
+}
+.enlacesRedesSociales {
+  display: inline-block;
+  float: right;
+}
+.enlacesRedesSociales img {
+  width: 20px;
+  height: 20px;
+}
