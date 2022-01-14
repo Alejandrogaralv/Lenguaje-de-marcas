@@ -61,8 +61,8 @@ a {
 }
 #aboutUs {
   padding: 90px;
-  padding-left: 500px;
-  padding-right: 500px;
+  padding-left: 30%;
+  padding-right: 30%;
   margin: auto;
 }
 #fastFacts {
@@ -113,19 +113,21 @@ a {
 }
 #founders h2:first-child {
   padding-bottom: 20px;
-  padding-left: 32px;
+  padding-left: 48px;
 }
 #contenedorFounders {
-  width: 1520px;
+  width: 100%;
   height: 600px;
   border-radius: 12px;
+  display: flex;
+  justify-content: center;
 }
 .contenedoresFoudners {
   width: 475px;
   height: 600px;
   margin: 14px;
   border-radius: 12px;
-  display: inline-block;
+  flex-basis: auto;
 }
 .contenedoresFoudners h2 {
   padding-top: 490px;
@@ -162,23 +164,26 @@ a {
   border-radius: 12px;
 }
 #history {
-  margin-top: 80px;
-  display: block;
-  padding-left: 80px;
+  display: flex;
+  justify-content: center;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 600px;
   margin-bottom: 150px;
 }
 #history h2 {
+}
+.tituloHistory {
   padding-bottom: 30px;
+  padding-left: 80px;
 }
 .contenedorHistory {
-  display: inline-block;
+  flex-basis: auto;
   height: 515px;
   width: 368px;
   border: 1px solid #ddd;
   border-radius: 12px;
   margin: 8px;
-  float: left;
 }
 .contenedorHistory img {
   width: 100%;
@@ -215,10 +220,11 @@ a {
 }
 .contenedorListas {
   height: 350px;
+  display: flex;
+  justify-content: left;
 }
 .listasFooter {
-  display: inline-block;
-  float: left;
+  flex-basis: auto;
   width: 368px;
   height: 355px;
 }
@@ -244,11 +250,12 @@ a {
 }
 .disclaimer {
   display: block;
-  margin-top: 48px;
+  margin-top: 55px;
   margin-bottom: 48px;
   width: 752px;
   margin-bottom: 48px;
 }
+
 .disclaimer h4 {
   font-size: 12px;
   font-weight: 600px;
