@@ -1,0 +1,48 @@
+@media (min-width: 800px) {
+  h2 {
+    font-size: 32px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 800px) {
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+}
+@media only screen and (mix-width) and (orientation: landscape) {
+}
+@media only screen and (min-width) {
+  body {
+    background-color: lightgrey;
+  }
+}
+@media screen, print {
+  body {
+    line-height: 1.2px;
+  }
+}
+@media only screen and (orientation: landscape) or (print) {
+  * {
+    color: black;
+  }
+}
+@media only screen and (min-width: 240) and (max-width: 800) {
+  .columna {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 800) and (max-width: 1200) {
+  .columna {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1200) {
+  .columna {
+    width: 25%;
+  }
+}

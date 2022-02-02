@@ -6,6 +6,7 @@
 }
 a {
   text-decoration: none;
+  font-size: 16px;
 }
 .news {
   position: absolute;
@@ -59,12 +60,17 @@ a {
 #imagenportada img {
   width: 100%;
 }
-#aboutUs {
+.aboutUs {
   padding: 90px;
   padding-left: 30%;
   padding-right: 30%;
   margin: auto;
+  display: flex;
 }
+.textoaboutUs {
+  flex-basis: auto;
+}
+
 #fastFacts {
   position: relative;
   background-color: #f2f2f2;
@@ -120,14 +126,18 @@ a {
   height: 600px;
   border-radius: 12px;
   display: flex;
+  flex-direction: row;
   justify-content: center;
+  flex-shrink: 4;
 }
 .contenedoresFoudners {
   width: 475px;
   height: 600px;
   margin: 14px;
   border-radius: 12px;
-  flex-basis: auto;
+
+  align-items: center;
+  flex-shrink: 15;
 }
 .contenedoresFoudners h2 {
   padding-top: 490px;
@@ -220,7 +230,7 @@ a {
 .contenedorListas {
   height: 350px;
   display: flex;
-  justify-content: left;
+  justify-content: space-between;
 }
 .listasFooter {
   flex-basis: auto;
@@ -248,11 +258,14 @@ a {
   text-decoration: underline;
 }
 .disclaimer {
-  display: block;
+  display: flex;
   margin-top: 55px;
   margin-bottom: 48px;
-  width: 752px;
+  width: 55%;
   margin-bottom: 48px;
+}
+.textoDisclaimer {
+  flex-basis: auto;
 }
 
 .disclaimer h4 {
@@ -305,4 +318,27 @@ a {
   margin-left: 5px;
   width: 20px;
   height: 20px;
+}
+@media (max-width: 600px) {
+  .aboutUs {
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .disclaimer {
+    padding-top: 100px;
+    width: 85%;
+  }
+  .copyenlaces {
+    width: 55%;
+  }
+  .copyenlaces p {
+    font-size: 7px;
+  }
+  .copyenlaces a {
+    font-size: 7px;
+  }
+  .contenedorListas {
+    justify-content: space-between;
+  }
 }
