@@ -108,8 +108,8 @@ a {
   padding-top: 65px;
   font-size: 12px;
 }
-#founders {
-  position: relative;
+.founders {
+  height: auto;
   padding-top: 80px;
   padding-left: 55px;
   padding-right: 55px;
@@ -117,13 +117,13 @@ a {
   border-radius: 12px;
   display: block;
 }
-#founders h2:first-child {
+.founders h2:first-child {
   padding-bottom: 20px;
   padding-left: 3%;
 }
-#contenedorFounders {
+.contenedorFounders {
   width: 100%;
-  height: 600px;
+  height: auto;
   border-radius: 12px;
   display: flex;
   flex-direction: row;
@@ -132,15 +132,15 @@ a {
 }
 .contenedoresFoudners {
   width: 475px;
-  height: 600px;
+
   margin: 14px;
   border-radius: 12px;
-
+  height: auto;
   align-items: center;
   flex-shrink: 15;
 }
 .contenedoresFoudners h2 {
-  padding-top: 490px;
+  padding-top: 10px;
   padding-left: 2px;
   font-size: 18px;
   color: black;
@@ -155,14 +155,12 @@ a {
   text-decoration: underline;
 }
 .fotoFounders {
-  position: absolute;
-
   overflow: hidden;
 
   border-radius: 12px;
 }
 .fotoFounders img {
-  width: 475px;
+  width: 100%;
   height: 100%;
   display: block;
   transition: transform 0.2s;
@@ -286,22 +284,20 @@ a {
   padding-top: 24px;
   padding-bottom: 24px;
   border-top: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
 }
 .copyenlaces {
-  display: inline-block;
+  display: flex;
   float: left;
 }
 .copyenlaces p {
-  display: inline-block;
-  float: left;
   padding-right: 5px;
   padding-left: 5px;
   font-size: 14px;
   font-weight: 300;
 }
 .copyenlaces a {
-  display: inline-block;
-  float: left;
   color: black;
   font-size: 14px;
   font-weight: 300;
@@ -310,8 +306,10 @@ a {
   text-decoration: underline;
 }
 .enlacesRedesSociales {
-  display: inline-block;
-  float: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 .enlacesRedesSociales img {
   margin-right: 5px;
@@ -340,5 +338,15 @@ a {
   }
   .contenedorListas {
     justify-content: space-between;
+  }
+  .founders {
+    display: flex;
+    flex-direction: column;
+  }
+  .contenedorFounders {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
   }
 }
