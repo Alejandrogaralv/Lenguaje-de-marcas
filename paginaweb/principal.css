@@ -54,6 +54,13 @@ a {
   top: 0px;
   vertical-align: middle;
 }
+.burgerMenu {
+  width: auto;
+  display: none;
+}
+.burgerMenu img {
+  width: auto;
+}
 #imagenportada {
   position: relative;
 }
@@ -119,7 +126,9 @@ a {
 }
 .founders h2:first-child {
   padding-bottom: 20px;
-  padding-left: 3%;
+  padding-left: 1%;
+  display: flex;
+  justify-content: flex-start;
 }
 .contenedorFounders {
   width: 100%;
@@ -183,6 +192,7 @@ a {
 .tituloHistory {
   padding-bottom: 30px;
   padding-left: 5%;
+  display: flex;
 }
 .contenedorHistory {
   flex-basis: auto;
@@ -289,7 +299,12 @@ a {
 }
 .copyenlaces {
   display: flex;
-  float: left;
+
+  align-items: center;
+}
+.copyenlaces div {
+  display: flex;
+  flex-direction: row;
 }
 .copyenlaces p {
   padding-right: 5px;
@@ -318,6 +333,12 @@ a {
   height: 20px;
 }
 @media (max-width: 600px) {
+  .botonesHeader {
+    display: none;
+  }
+  .burgerMenu {
+    display: flex;
+  }
   .aboutUs {
     padding: 10px;
     padding-left: 20px;
@@ -325,16 +346,22 @@ a {
   }
   .disclaimer {
     padding-top: 100px;
-    width: 85%;
+    width: 100%;
   }
   .copyenlaces {
-    width: 55%;
+    width: 100%;
   }
   .copyenlaces p {
-    font-size: 7px;
+    font-size: 14px;
+  }
+
+  .copyenlaces p:first-child {
+    width: 100%;
+    align-self: flex-start;
+    justify-self: flex-start;
   }
   .copyenlaces a {
-    font-size: 7px;
+    font-size: 14px;
   }
   .contenedorListas {
     justify-content: space-between;
@@ -374,20 +401,41 @@ a {
     justify-content: center;
     text-align: center;
   }
+  .enlacesRedesSociales {
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-bottom: 15px;
+  }
+  .copyrightetc {
+    flex-direction: column-reverse;
+  }
+  .copyenlaces {
+    flex-direction: column;
+  }
+  .copyenlaces div {
+    flex-direction: row;
+    display: flex;
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding-left: 5px;
+  }
+  .copyenlaces div p:first-child {
+    display: none;
+  }
 }
 @media (max-width: 450px) {
-  #header a {
+  .copyenlaces p {
+    font-size: 12px;
+  }
+  .copyenlaces a {
     font-size: 12px;
   }
 }
 @media (max-width: 400px) {
-  #header a {
+  .copyenlaces p {
     font-size: 10px;
   }
-  .copyenlaces p {
-    font-size: 5px;
-  }
   .copyenlaces a {
-    font-size: 5px;
+    font-size: 10px;
   }
 }
