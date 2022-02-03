@@ -376,6 +376,12 @@ a {
   }
 }
 @media (max-width: 743px) {
+  .botonesHeader {
+    display: none;
+  }
+  .burgerMenu {
+    display: flex;
+  }
   #history {
     flex-direction: column;
     height: auto;
@@ -386,12 +392,6 @@ a {
   }
 }
 @media (max-width: 600px) {
-  .botonesHeader {
-    display: none;
-  }
-  .burgerMenu {
-    display: flex;
-  }
   .aboutUs {
     padding: 10px;
     padding-left: 20px;
