@@ -332,6 +332,59 @@ a {
   width: 20px;
   height: 20px;
 }
+@media (max-width: 1127px) {
+  .listasFooter {
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .contenedorListas {
+    height: auto;
+    width: auto;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .enlacesRedesSociales {
+    align-items: flex-start;
+    justify-content: center;
+    padding-bottom: 15px;
+  }
+  .copyrightetc {
+    flex-direction: column-reverse;
+  }
+  .copyenlaces {
+    flex-direction: column;
+  }
+  .copyenlaces div {
+    flex-direction: row;
+    display: flex;
+    align-self: center;
+    justify-self: center;
+    padding-left: 5px;
+  }
+  .copyenlaces div p:first-child {
+    display: none;
+  }
+  .disclaimer {
+    width: 100%;
+  }
+}
+@media (max-width: 743px) {
+  #history {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+  }
+  .contenedorHistory {
+    width: 60%;
+  }
+}
 @media (max-width: 600px) {
   .botonesHeader {
     display: none;
