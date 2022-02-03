@@ -131,7 +131,7 @@ a {
   flex-shrink: 4;
 }
 .contenedoresFoudners {
-  width: 475px;
+  width: 100%;
 
   margin: 14px;
   border-radius: 12px;
@@ -187,7 +187,7 @@ a {
 .contenedorHistory {
   flex-basis: auto;
   height: 515px;
-  width: 368px;
+  width: 25%;
   border: 1px solid #ddd;
   border-radius: 12px;
   margin: 8px;
@@ -278,7 +278,7 @@ a {
 .contenedorCopyrightetc {
   padding-left: 80px;
   padding-right: 80px;
-  height: 50px;
+  height: auto;
 }
 .copyrightetc {
   padding-top: 24px;
@@ -354,6 +354,9 @@ a {
     height: auto;
     align-items: center;
   }
+  .contenedorHistory {
+    width: 100%;
+  }
   .listasFooter {
     width: auto;
     height: auto;
@@ -375,5 +378,16 @@ a {
 @media (max-width: 450px) {
   #header a {
     font-size: 12px;
+  }
+}
+@media (max-width: 400px) {
+  #header a {
+    font-size: 10px;
+  }
+  .copyenlaces p {
+    font-size: 5px;
+  }
+  .copyenlaces a {
+    font-size: 5px;
   }
 }
