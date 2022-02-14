@@ -1,0 +1,48 @@
+* {
+  font-family: monospace;
+}
+h1 {
+  font-size: 20px;
+}
+div {
+  border-radius: 12px;
+}
+#contenedor-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 10px;
+  max-width: 1500px;
+  margin: auto;
+}
+#uno {
+  background-color: lightgreen;
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+#dos {
+  background-color: fuchsia;
+  grid-column: 1/3;
+  grid-row: 3/4;
+}
+#tres {
+  background-color: lightblue;
+  grid-column: 3/6;
+  grid-row: 1/2;
+}
+#cuatro {
+  background-color: brown;
+  grid-column: 3/5;
+  grid-row: 2/4;
+}
+#cinco {
+  background-color: green;
+  grid-column: 5/6;
+  grid-row: 2/3;
+}
+#seis {
+  background-color: greenyellow;
+  grid-column: 5/6;
+  grid-row: 3/4;
+  height: 17.38vw;
+}
