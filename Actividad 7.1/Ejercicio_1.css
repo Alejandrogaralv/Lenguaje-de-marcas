@@ -1,0 +1,29 @@
+#caja {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    margin: auto;
+    background-color: green;
+
+}
+
+#caja:hover {
+    animation: color 3s;
+}
+
+@keyframes color {
+    0% {
+        background-color: green;
+    }
+    33%{
+        background-color: blue;
+    }
+
+    66%{
+        background-color: red;
+    }
+
+    100% {
+        background-color: yellow;
+    }
+}
