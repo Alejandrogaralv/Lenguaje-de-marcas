@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+#texto{
+    display: block;
+}
+h2{
+    font-size: 70px;
+    font-family: monospace;
+    white-space: nowrap;
+    width: 19ch;
+    border-right: 10px solid black;
+    animation: cursorIntermitente 0.9s infinite, efectoMaquina 5s steps(19);
+    overflow: hidden;
+
+}
+@keyframes cursorIntermitente{
+    50%{
+        border-right: transparent;
+    }
+}
+@keyframes efectoMaquina{
+    from{
+        width: 0;
+    }
+    to{
+        width:19ch;
+    }
+}

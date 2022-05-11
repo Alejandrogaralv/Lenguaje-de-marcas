@@ -13,9 +13,10 @@ body {
     border-top-color:transparent;
     border-right-color: transparent;
     margin: auto;
-    animation: spinner 0.8s infinite;
+    animation: spinner 0.7s infinite;
     border-radius: 50%;
     background-color: lightgray;
+    
 }
 
 
