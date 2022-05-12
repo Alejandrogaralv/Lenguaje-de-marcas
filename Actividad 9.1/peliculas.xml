@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="peliculas.xsl" type="text/xsl"?>
+
+    <web>
+        <title>Filmoteca</title>
+        <nombre>Mis Películas</nombre>
+        <encabezado>Bienvenidos a mi filmoteca</encabezado>
+        <descripcion>En esta web puedes ver mis películas favoritas</descripcion>
+        <filmoteca>
+        
+        </filmoteca>
+    </web>
