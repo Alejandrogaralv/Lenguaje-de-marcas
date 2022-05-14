@@ -7,6 +7,54 @@
         <encabezado>Bienvenidos a mi filmoteca</encabezado>
         <descripcion>En esta web puedes ver mis películas favoritas</descripcion>
         <filmoteca>
-        
+            <pelicula>
+                <titulo>El renacido</titulo>
+                <director>Alejandro González Iñárritu</director>
+                <year>2015</year>
+                <sinopsis>En 1823, Hugh Glass (Leonardo DiCaprio) guía a un grupo de tramperos pertenecientes a Andrew Henry (Domhnall Gleeson) en el territorio septentrional desorganizado de Luisiana (actualmente, los estados norteamericanos de Montana y Dakota del Sur) cuando de repente sufren una emboscada por un grupo de Indios arikara, que les roban las pieles que llevaban. Sin embargo, algunos logran escapar. Entre los supervivientes, Hugh, el único hombre que conocía la ruta de regreso, resulta mortalmente herido por el ataque de un oso grizzly. Al ver la enorme dificultad de cargar con un moribundo y, además, en el crudo invierno, Andrew se ve obligado a abandonarlo en el bosque con el hijo indígena de Glass, Hawk (Forrest Goodluck) y dos de sus hombres: el joven Jim Bridger (Will Poulter) y el exmilitar John Fitzgerald (Tom Hardy).</sinopsis>
+                <generos>
+                    <genero>Drama</genero>
+                    <genero>Acción</genero>
+                </generos>
+                <reparto>
+                    <principales>
+                        <actor>Leonardo DiCaprio</actor>
+                        <actor>Tom Hardy</actor>
+                    </principales>
+                    <secundarios>
+                        <actor>Lukas Hass</actor>
+                        <actor>Arthur Redcloud</actor>
+                    </secundarios>
+                </reparto>
+            </pelicula>
+            <pelicula>
+                <titulo>El Lobo de Wall Street</titulo>
+                <director>Martin Scorsese</director>
+                <year>2013</year>
+                <sinopsis>La película empieza con un comercial de televisión narrado por Gene Hackman donde promueve la firma Stratton Oakmont. La escena corta a la sede de la misma compañía, donde muchas personas andan drogadas y ebrias. Jordan Belfort luego narra cómo logró tener una gran esposa, una gran mansión en Long Island, un gran Ferrari y volverse multimillonario.</sinopsis>
+                <generos>
+                    <genero>Comedia negra</genero>
+                </generos>
+                <reparto>
+                    <principales>
+                        <actor>Leonardo DiCaprio</actor>
+                        <actor>Jordan Belfort</actor>
+                    </principales>
+                    <secundarios>
+                        <actor>Jon Bertnal</actor>
+                        <actor>Rob Reiner</actor>
+                    </secundarios>
+                </reparto>
+            </pelicula>
+            <pelicula>
+                <titulo>Inception</titulo>
+                <director>Christopher Nolan</director>
+                <year>2010</year>
+                <sinopsis>Dom Cobb (Leonardo DiCaprio) es un ladrón, prófugo de la justicia estadounidense por el supuesto asesinato de su esposa, especializado en infiltrarse en los sueños para robar ideas, claves de bancos, etc. mientras sus víctimas duermen. Esto lo logra a través de un sueño inducido por un dispositivo de tecnología militar experimental, que administra un potente sedante a las víctimas y a los atacantes, creando un sueño compartido, ubicado en un escenario construido por la subconciencia de uno de los atacantes, y ocupado por proyecciones mentales (subconsciencia) del sujeto al que se le extrae la información, quien por lo mismo no sospecha estar soñando.</sinopsis>
+                <generos>
+                    <genero>Drama</genero>
+                    <genero>Suspense</genero>
+                </generos>
+            </pelicula>
         </filmoteca>
     </web>
