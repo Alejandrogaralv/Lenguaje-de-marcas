@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+}
+header{
+    background-color: gray;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    padding: 20px;
+}
+#introduccion, #peliculas{
+    margin-top: 10px;
+    text-align: center;
+}
+#introduccion h1{
+    margin-bottom: 10px;
+}
+#peliculas{
+    padding-top: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+#peliculas h2{
+    padding-bottom: 20px;
+}
+.containerTarjetasPeliculas{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+}
+.tarjeta{
+    
+    border-radius: 12px;
+    height: auto;
+    padding:10px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
+    transition: all 0.5s ;
+}
+.tarjeta p{
+    text-align: left;
+    margin-top: 7px;
+}
+.tarjeta:hover{
+    transform: scale(1.03);
+    box-shadow: 0 0 12px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    margin-top: 30px;
+}
