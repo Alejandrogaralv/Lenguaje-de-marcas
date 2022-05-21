@@ -5,9 +5,10 @@
     padding: 0;
     font-family:'Shadows Into Light', cursive;
 }
-header{
+header, footer{
     background-color: rgb(1, 10, 34);
     box-shadow: 0 5px 12px rgba(0, 0, 0, 0.7);
+    opacity: 0.8;
 
     
 }
@@ -36,4 +37,20 @@ header{
     border-radius: 12px;
     background-color: rgb(2, 19, 59);
     box-shadow: 0 0 12px rgba(0, 0, 0, 100);
+}
+#iconosContacto{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+    bottom: 0px;
+}
+#iconosContacto a img {
+    max-height: 30px;
+    max-width: 30px;
+    padding-top: 7px;
+}
+footer{
+    
 }
