@@ -15,6 +15,8 @@ body {
     background-position: center center;
     background-attachment: fixed;
     background-color: rgb(1, 10, 34);
+    display: flex;
+    flex-direction: column;
     
 }
 .noEncontrado{
@@ -95,5 +97,48 @@ body {
     }
     100%{
         transform: translateY(0);
+    }
+}
+@media (max-width: 900px) {
+    #opcionesHeader {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        justify-content: center;
+
+    }
+
+    header button {
+        display: block;
+        max-width: 20px;
+        max-height: 20px;
+        margin: 5px;
+
+    }
+
+    header img {
+
+        max-width: 20px;
+        max-height: 20px;
+
+    }
+
+    #desplegable {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #desplegable:hover #opcionesHeader {
+        display: block;
+
+    }
+}
+@media (max-width: 550px){
+    .noEncontrado{
+        font-size: 250%;
     }
 }

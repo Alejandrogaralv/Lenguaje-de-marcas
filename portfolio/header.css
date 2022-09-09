@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +12,16 @@ header, footer{
     opacity: 0.8;
 
     
+}
+header button{
+    display: none;
+}
+footer{
+    margin-top: auto;
+}
+button{
+    background-color: transparent;
+    border: none;
 }
 #opcionesHeader{
     display: grid;
@@ -50,7 +61,4 @@ header, footer{
     max-height: 30px;
     max-width: 30px;
     padding-top: 7px;
-}
-footer{
-    
 }
